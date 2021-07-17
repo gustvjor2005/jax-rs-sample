@@ -4,6 +4,7 @@ public class Author {
 	
 	String codigo;
 	String nombre;
+	String categoria;
 	
 	public String getCodigo() {
 		return codigo;
@@ -16,6 +17,12 @@ public class Author {
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	public String getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
 	}
 
 }
